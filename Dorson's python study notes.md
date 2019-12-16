@@ -23,9 +23,9 @@ IPython（基于CPython之上交互式解释器，提示符In [序号]:）。
 记事本编辑的时候，从文件读取的UTF-8字符被转换为Unicode字符到内存里，编辑完成后，保存的时候再把Unicode转换为UTF-8保存到文件。  
 浏览网页的时候，服务器会把动态生成的Unicode内容转换为UTF-8再传输到浏览器。  
 网络或磁盘上读取了字节流，那么读到的数据就是bytes。要把bytes变为str，就需要用decode()方法:  
->>> b'ABC'.decode('ascii')  
+b'ABC'.decode('ascii')  
 'ABC'  
->>> b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8')  
+b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8')  
 '中文'  
 1个中文字符经过UTF-8编码后通常会占用3个字节，而1个英文字符只占用1个字节。  
 经常遇到str和bytes的互相转换。为了避免乱码问题，应当始终坚持使用UTF-8编码对str和bytes进行转换。  
