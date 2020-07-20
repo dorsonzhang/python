@@ -1,2 +1,2 @@
 # python
-This my python Github
+This my python study notebook on Github
