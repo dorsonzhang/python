@@ -13,7 +13,7 @@
 
 + 找到密钥文件 id_rsa.pub ,复制文件内容，在github的setting里SSH keys菜单增加该密钥
 
-#### 开始连接闭关工作：
+#### 开始连接并工作：
 
 1. 确定git与github已经连接：
 
